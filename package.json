@@ -6,7 +6,8 @@
         "dev": "next dev --turbopack",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "vercel-build": "npm install --legacy-peer-deps && npm run build"
     },
     "dependencies": {
         "@babel/core": "^7.17.9",
