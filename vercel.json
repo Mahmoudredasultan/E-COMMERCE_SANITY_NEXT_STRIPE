@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "buildCommand": "npm install --legacy-peer-deps && npm run build",
+    "outputDirectory": "out",
+    "framework": "nextjs"
+}
