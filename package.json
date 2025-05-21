@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "dev": "next dev --turbopack",
-        "postinstall": "cd e-commerce && npm install",
+        
         "build": "npm run build:sanity && next build",
         "start": "next start",
         "lint": "next lint"
