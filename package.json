@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-   
-    "build": "cd e-commerce && npm run build && cd .. && next build",
-    "start": "next start",
-    "lint": "next lint"
+  "build": "npm run install-sanity && cd e-commerce && npm run build && cd .. && next build",
+  "install-sanity": "cd e-commerce && npm install --legacy-peer-deps",
+  "start": "next start",
+  "lint": "next lint"
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
