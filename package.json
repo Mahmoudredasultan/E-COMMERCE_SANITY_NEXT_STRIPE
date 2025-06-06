@@ -12,6 +12,7 @@
         "@babel/core": "^7.17.9",
         "@sanity/vision": "^3.0.0",
         "sanity": "^3.0.0",
+        "rxjs": "^6.6.7",
         "next-sanity": "^5.0.0",
         "@sanity/client": "^3.2.0",
         "@sanity/image-url": "^1.0.1",
